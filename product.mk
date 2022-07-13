@@ -16,5 +16,8 @@ PRODUCT_COPY_FILES += \
 # iperf3
 PRODUCT_PACKAGES += iperf3
 
+# Signing
+$(call inherit-product, vendor/extra/signing.mk)
+
 # tinymix
 PRODUCT_PACKAGES += tinymix
